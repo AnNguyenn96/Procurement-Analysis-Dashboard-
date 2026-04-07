@@ -14,6 +14,16 @@ It supports data-driven decision-making by providing both **high-level overview*
 ![KPI Design](https://img.shields.io/badge/KPI%20Design-6A1B9A?style=for-the-badge)
 
 ---
+## 📐 Metric Logic  
+
+| Metric | Definition | Business Meaning |
+|-------|-----------|----------------|
+| Total Spend | Sum of all procurement costs | Reflects overall business activity and purchasing volume |
+| Defect Rate | Number of defective orders / Total orders | Measures product quality and supplier reliability |
+| Defective Cost | Total cost associated with defective items | Indicates financial loss due to quality issues |
+| Net Saving | Total cost savings after accounting for defects | Shows actual efficiency of procurement |
+| Delivered Rate | Number of successfully delivered orders / Total orders | Measures delivery reliability |
+| Lead Time | Difference between order date and delivery date | Indicates speed of supplier fulfillment |
 
 ## 📊 Dashboard Pages  
 
@@ -52,7 +62,7 @@ Evaluate **supplier-level performance for decision-making**
 ---
 
 ## 🔍 Key Findings  
-
+<img width="1296" height="689" alt="{ADB58663-C46D-48C5-8C1A-2550884E8399}" src="https://github.com/user-attachments/assets/d13af35e-42c0-4739-8466-a8c5707bbc4a" />
 
 
 - 📈 Procurement spend reached **$4.5M in 2023**, with noticeable monthly fluctuations  
@@ -74,7 +84,9 @@ Evaluate **supplier-level performance for decision-making**
   → **Delta Logistics** achieves high cost savings (~**$534K**)  
   → But is also associated with higher defective costs  
 
-- ⏱️ Supplier performance varies significantly:  
+- ⏱️ Supplier performance varies significantly:
+<img width="1200" height="600" alt="{B7839139-C795-43EB-92A4-563498D4A7A9}" src="https://github.com/user-attachments/assets/93dabc71-02c3-400b-9cde-cc23c200dc0b" />
+
   → Example: **Alpha Inc** has an average lead time of **10.5 days** and only **16.85%** of deliveries within 3 days  
   → Highlighting inefficiencies in delivery speed  
 
@@ -122,6 +134,3 @@ Evaluate **supplier-level performance for decision-making**
 - 🔗 Portfolio: https://annguyen96200.wixsite.com/daportfolio  
 - 🔗 LinkedIn: https://www.linkedin.com/in/jjustinnguyen  
 
----
-
-⭐ If you found this useful, give this project a star!
