@@ -1,6 +1,6 @@
 # 📊 Procurement KPI Analysis Dashboard  
 
-📊 Dataset Overview
+## 📊 Dataset Overview
 
 This dataset contains 777 procurement transaction records capturing purchase order activities across multiple suppliers and categories.
 
@@ -9,7 +9,7 @@ It includes key information such as order dates, delivery dates, supplier detail
 The dataset supports evaluation of spending behavior, supplier reliability, delivery performance, and quality issues, which are critical factors in optimizing procurement operations.
 
 ---
-❓ Problem Statement
+## ❓ Problem Statement
 
 This project aims to answer the following key business questions:
 
@@ -76,75 +76,65 @@ Evaluate **supplier-level performance for decision-making**
 ---
 
 ## 🔍 Key Findings  
+
+📌 Executive Summary
+
+This analysis evaluates procurement performance across cost, quality, and delivery dimensions. While total spend and cost savings have increased, supplier-level inefficiencies—particularly high defect costs and inconsistent compliance—highlight opportunities for optimization. A key finding is that Delta_Logistics significantly impacts defect cost despite moderate spend, indicating deeper quality and process issues.
+
+📊 Business Insights
+
 <img width="1296" height="689" alt="{ADB58663-C46D-48C5-8C1A-2550884E8399}" src="https://github.com/user-attachments/assets/d13af35e-42c0-4739-8466-a8c5707bbc4a" />
 
+### 1. Procurement Spending Trend
+Total spend reached $25.8M (+10.77% YoY)
+Significant monthly fluctuations, with peaks in March and November
 
-- 📈 Procurement spend reached **$4.5M in 2023**, with noticeable monthly fluctuations  
-  → Peak spending occurred around **$3.0M in March**, indicating seasonal procurement patterns  
+👉 Procurement demand is not stable, which may impact supplier efficiency and planning.
 
-- ⚠️ Defect rate is relatively high at **23.26%**, suggesting quality issues across suppliers  
-  → This implies nearly **1 in 4 orders may be defective**, impacting operational efficiency  
+### 2. Spend Concentration
+Top suppliers:
+Beta_Supplies ($6.13M)
+Epsilon_Group ($5.84M)
+Top categories:
+MRO, Raw Materials, Electronics
 
-- 💸 Defective cost totals **$1.33M**, significantly offsetting cost savings  
-  → Despite generating **$377.1K in net savings**, overall procurement efficiency remains limited  
+👉 High dependency on a few suppliers increases operational risk.
 
-- 🚚 Delivered rate is **73.02%**, meaning approximately **27% of orders are delayed or incomplete**  
-  → Indicates room for improvement in supplier delivery performance  
 
-- 📊 Procurement spend is relatively distributed across multiple suppliers, ranging from approximately **$4.18M to $6.13M**  
-  → Indicates a balanced supplier allocation rather than heavy dependency on a single supplier  
-
-- ⚖️ A clear trade-off exists between cost and quality:  
-  → **Delta Logistics** achieves high cost savings (~**$534K**)  
-  → But is also associated with higher defective costs  
-
-- ⏱️ Supplier performance varies significantly:
 <img width="1200" height="600" alt="{B7839139-C795-43EB-92A4-563498D4A7A9}" src="https://github.com/user-attachments/assets/93dabc71-02c3-400b-9cde-cc23c200dc0b" />
 
-  → Example: **Alpha Inc** has an average lead time of **10.5 days** and only **16.85%** of deliveries within 3 days  
-  → Highlighting inefficiencies in delivery speed  
+### 3. Supplier Performance
+Average lead time: ~9.9 days
+Delivered rate: 81.79%
+Only 12.9% delivered within 3 days
 
-> ⚠️ Insights are based on 2023 data and may vary depending on selected filters (Year, Supplier)
----
+👉 Delivery efficiency is moderate but not optimized, especially for urgent demand.
 
-## 💡 Recommendations  
+### 4. Quality & Defect Cost
+Total defect cost: $1.33M (+8.91% YoY)
+Delta_Logistics has the highest defect cost (~$534K)
+Lowest compliance: ~60.82%
 
-### 1. Optimize Supplier Selection  
-- Reduce dependency on a few suppliers  
-- Diversify supplier base  
+👉 Defect issues are supplier-specific, not just driven by volume.
 
----
+### 5. Supplier Comparison (Cost vs Quality vs Delivery)
+Best performers:
+Epsilon_Group, Alpha_Inc → high compliance, low defect
+Worst performer:
+Delta_Logistics → high defect, low compliance
 
-### 2. Improve Quality Control  
-- Identify high-defect suppliers  
-- Implement stricter quality standards  
+👉 There is a clear imbalance between cost savings and quality performance.
 
----
+### 🚀 Recommendations
 
-### 3. Balance Cost vs Quality  
-- Avoid choosing suppliers based only on cost  
-- Introduce performance-based evaluation  
-
----
-
-### 4. Improve Delivery Performance  
-- Set SLA targets for lead time  
-- Monitor supplier delays  
-
----
-
-### 5. Enable Data-Driven Procurement  
-- Use dashboard for continuous monitoring  
-- Support proactive decision-making  
+| Area                                       | Issue Identified                                          | Recommendation                                                                    | Expected Impact                                 |
+| ------------------------------------------ | --------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------- |
+| **Supplier Performance (Delta_Logistics)** | Highest defect cost (~$534K), lowest compliance (~60.82%) | Conduct root cause analysis, enforce KPI/SLA, reduce dependency if no improvement | Reduce defect cost, improve quality consistency |
+| **Spend Allocation**                       | Over-reliance on a few suppliers                          | Reallocate spend to high-performing suppliers (Epsilon_Group, Alpha_Inc)          | Better quality without increasing total cost    |
+| **Delivery Efficiency**                    | Only 12.9% delivered within 3 days                        | Introduce SLA-based delivery targets and segment suppliers by speed vs cost       | Faster delivery, improved responsiveness        |
+| **Procurement Planning**                   | High monthly spend fluctuation                            | Implement demand forecasting and stabilize procurement cycles                     | Better supplier planning, reduced rush orders   |
+| **Supplier Monitoring**                    | Lack of performance-driven tracking                       | Track compliance, defect cost, and lead time variability                          | Shift toward performance-based procurement      |
+| **Category Optimization**                  | High spend in MRO & Raw Materials                         | Audit suppliers and renegotiate contracts in key categories                       | Cost optimization in high-impact areas          |
 
 ---
-
-## 👤 Author  
-
-**An Nguyen**  
-📍 Melbourne, Australia  
-💼 Business Intelligence / Data Analyst  
-
-- 🔗 Portfolio: https://annguyen96200.wixsite.com/daportfolio  
-- 🔗 LinkedIn: https://www.linkedin.com/in/jjustinnguyen  
 
