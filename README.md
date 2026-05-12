@@ -1,5 +1,17 @@
 # 📊 Procurement KPI Analysis Dashboard  
 
+## 📑 Table of Contents
+
+* 📊 [Dataset Overview](#-dataset-overview)
+* ❓ [Problem Statement](#-problem-statement)
+* 🧰 [Tech Stack](#-tech-stack)
+* 📐 [Metric Logic](#-metric-logic)
+* 📊 [Dashboard Pages](#-dashboard-pages)
+* 🔍 [Key Findings](#-key-findings)
+* 🚀 [Recommendations](#-recommendations)
+
+This table of contents is based on your Procurement KPI Analysis Dashboard README structure. 
+
 ## 📊 Dataset Overview
 
 This dataset contains 777 procurement transaction records capturing purchase order activities across multiple suppliers and categories.
